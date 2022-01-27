@@ -23,3 +23,4 @@ $includes = array(
 foreach ($includes as $file) {
 	require_once get_theme_file_path($includes_dir . $file);
 }
+//

@@ -51,7 +51,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: dm sans, Sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -99,7 +99,8 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-family: "Fira Code", monospace;
+  font-weight: 600;
   line-height: 1.2;
 }
 
@@ -6796,7 +6797,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: dm sans, Sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6898,7 +6899,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: var(--bs-font-sans-serif);
+  font-family: dm sans, Sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -15596,6 +15597,14 @@ figure.woocommerce-product-gallery__wrapper {
 
 .gallery-caption {
   display: block;
+}
+
+h1, .h1 {
+  font-size: 4rem;
+}
+
+.navbar-brand {
+  font-family: "Fira Code", monospace;
 }
 
 .has-blue-color,
